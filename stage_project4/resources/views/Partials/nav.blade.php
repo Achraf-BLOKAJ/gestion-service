@@ -48,6 +48,7 @@
                     <i class="fas fa-tools me-2"></i> <span class="sidebar-text">Techniciens</span>
                 </a>
             </li>
+
             
             <!-- Intervention avec select au lieu de dropdown -->
             <li class="nav-item">
@@ -65,6 +66,8 @@
                     </form>
                 </div>
             </li>
+            
+           
         @endif
     </ul>
     
@@ -94,3 +97,7 @@
         </button>
     </div>
 </nav>
+
+
+
+

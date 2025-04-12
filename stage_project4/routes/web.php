@@ -44,7 +44,9 @@ Route::post('/technician/reject/{client}', [TechnicienController::class, 'reject
 // Route::put('/clients/{id}/update-intervention', [ClientController::class, 'updateIntervention'])->name('clients.updateIntervention');
 Route::put('/clients/{id}/update-intervention', [ClientController::class, 'updateIntervention'])->name('clients.updateIntervention');
 
-
+Route::get('/intervention/en_cour', [InterventionController::class, 'index'])->name('intervention.en_cour');
+Route::get('/intervention/non_confirmer', [InterventionController::class, 'index'])->name('intervention.non_confirmer');
+Route::get('/intervention/terminer', [InterventionController::class, 'index'])->name('intervention.terminer');
 
 
 // Route::get('/test-email', function() {

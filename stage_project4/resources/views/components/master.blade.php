@@ -168,7 +168,7 @@
         </div>
     </div>
 
-    @include('partials.footer')
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-wH9yNNlBwG9SzLk6tU2eG6xvU0hJX6tx5e/Df3yAmd4F/5xTGeNqhde8W4sU5Lpk"
@@ -234,6 +234,9 @@
     </script>
 
 @stack('scripts')
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 </html>
